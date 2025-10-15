@@ -21,6 +21,12 @@ def alternative_suggestion_node(state: TripPlannerState) -> TripPlannerState:
     
     try:
         weather = state.get("weather_data")
+        if weather:
+            weather_desc = f"{weather.temperature}°C, {weather.condition}"
+            weather_favorable = weather.is_favorable
+        else:
+            weather_desc = "Weather data unavailable"
+            weather_favorable = False
         flights = state.get("flights", [])
         trip_request = state["trip_request"]
         
@@ -124,4 +130,5 @@ Format as a clear, numbered list.""")
         state["messages"].append(f"❌ Could not generate alternatives: {str(e)}")
         print(f"❌ Error: {str(e)}")
     
+
     return state
