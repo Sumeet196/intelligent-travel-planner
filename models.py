@@ -31,7 +31,7 @@ class WeatherData(BaseModel):
     condition: str
     humidity: int
     wind_speed: float
-    precipitation_chance: int
+    precipitation_chance: float
     is_favorable: bool
     alert: Optional[str] = None
 
@@ -104,4 +104,5 @@ class GraphState(BaseModel):
     errors: List[str] = Field(default_factory=list)
     current_step: str = "init"
     should_replan: bool = False
+
     messages: List[str] = Field(default_factory=list)
