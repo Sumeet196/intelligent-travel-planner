@@ -5,4 +5,6 @@ langchain-core
 langgraph
 python-dotenv
 requests
+
 pydantic
+google-search-results
