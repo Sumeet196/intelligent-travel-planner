@@ -16,16 +16,6 @@ AI-powered travel planning application that generates personalized trip itinerar
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Demo](#demo)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [How It Works](#how-it-works)
-- [API Keys Required](#api-keys-required)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ---
 
