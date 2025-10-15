@@ -74,6 +74,5 @@ AI-powered travel planning application that generates personalized trip itinerar
 Visit: **[https://intelligent-travel-planner-u3az.onrender.com](https://intelligent-travel-planner-u3az.onrender.com)**
 
 ### Screenshot
-![AI Trip Planner Interface](https://via.placeholder.com/800x400?text=Add+Screenshot+Here)
-
-### Sample Output
+<img width="707" height="909" alt="image" src="https://github.com/user-attachments/assets/0353b500-52f8-4049-a054-6a478c353686" />
+<img width="697" height="909" alt="image" src="https://github.com/user-attachments/assets/11e33e90-a325-41d0-8cc5-23f541b2e4cc" />
