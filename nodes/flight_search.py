@@ -37,6 +37,10 @@ def flight_search_node(state: TripPlannerState) -> TripPlannerState:
             return_date=trip_request.end_date or "",
             budget=trip_request.budget
         )
+        print("="*60)
+        print("DEBUG: Full SerpAPI Response:")
+        print(json.dumps(result, indent=2)[:1000])  # First 1000 chars
+        print("="*60)
         
         state["flights"] = flights[:3]
         state["current_step"] = "flights_found"
@@ -83,4 +87,5 @@ def flight_search_node(state: TripPlannerState) -> TripPlannerState:
         state["errors"].append(f"Flight search failed: {str(e)}")
         state["messages"].append("⚠️ Flight search had issues")
     
+
     return state
